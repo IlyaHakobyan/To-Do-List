@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>YouTube</title>
+</head>
+<body class="bg-black text-white">
+
+<!-- Nav goes here -->
+
+    <nav class="bg-neutral-900">
+        <div class="flex justify-between">
+            <div class="flex ml-4">
+                <button class="py-1 px-2">
+                    <img src="imgs/hamburger.svg" alt="Hamburger" class="w-6">
+                </button>
+                <button class="p-4">
+                    <img src="imgs/logo.svg" alt="Logo" class="w-20">
+                </button>
+            </div>
+            
+
+            <div class="flex items-center">
+                <input type="text" id="search" class="items-center bg-black rounded-l-full mt-5 mb-4 py-1 px-5 w-full text-base text-white border-solid border-neutral-600 border-[2px] focus-ring-neutral-600 focus-border-neutral-600 active:border-neutral-500" placeholder="Search">
+                <button type="search-icon" class="mt-5 mb-4 py-1 px-6 bg-neutral-600 rounded-r-full ">
+                    <img src="imgs/search.svg" alt="search-icon" class="w-10 h-7">
+                </button>
+                <button class="p-[6px] bg-neutral-600 rounded-full ml-2">
+                    <img src="imgs/mic.svg" alt="Microphone" class="w-10">
+                </button>
+            </div>
+
+                
+                
+
+            <div class="flex ml-40">
+                <button class="p-1 mr-2 mb-4 mt-4 rounded-full">
+                    <img src="imgs/create.svg" class="w-9 h-6">
+                </button>
+                <button class="p-1 mr-2 mb-4 mt-4 rounded-full">
+                    <img src="imgs/bell.svg" class="w-9 h-6">
+                </button>
+                <button class="p-1 mr-4 mb-4 mt-4 rounded-full">
+                    <img src="imgs/acc.jpeg" class="w-9 object-cover rounded-full">
+                </button>
+            </div>
+        </div>
+    </nav>
+
+<!-- main section goes here -->
+
+    <div class="flex grid grid-cols-3 gap-3"> 
+
+        <!-- Left section -->
+        <div class="col-start-1 col-end-3 ml-6 pt-6 pr-6">
+
+            <!-- <iframe src="https://www.youtube.com/embed/4IenX7OHumk" class="mb-3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+            <!-- <div class="w-100 h-44 bg-cover bg-center bg-red-300" style="background-image: url(imgs/lion.png);"></div>          -->
+
+            <img src="imgs/lion.png" class="h-104 object-cover object-center">
+            
+            <!-- acc + like/share -->
+            <h1 class="font-bold text-[20px] mt-2">Win or Die (Full Episode) | Savage Kingdom</h1>
+            <div class="flex flex-row justify-between mt-3">
+                <div class="flex items-center">
+                    <button class="rounded-full mr-3">
+                        <img src="imgs/channel.jpeg" class="w-10 object-cover rounded-full">
+                    </button>
+                    <div class="flex flex-col">
+                        <h1 class="text-[16px]">Nat Geo WILD</h1>
+                        <h1 class="text-[12px] text-gray-400">4.54M subscribers</h1>
+                    </div>
+                </div>
+
+                <div class="flex">
+                
+                    <div class="flex bg-neutral-800 rounded-full mr-4">
+                        <button class="py-2 pr-10 pl-5 bg-neutral-800 rounded-l-full flex items-center hover:bg-neutral-700">
+                            <img src="imgs/like.svg" class="mr-1">
+                            <h1 class="text-[14px] font-bold">25K</h1>
+                        </button>
+                        <div class="w-[1.5px] bg-gray-500 my-2 rounded-full"></div>
+                        <button class="py-2 px-5 bg-neutral-800 rounded-r-full hover:bg-neutral-700">
+                            <img src="imgs/dislike.svg" class="w-6">
+                        </button>
+                    </div>
+                    <div class="flex">
+                        <button class="py-2 pr-12 pl-5 bg-neutral-800 rounded-full flex items-center mr-4 hover:bg-neutral-700">
+                            <img src="imgs/share.svg" class="mr-1">
+                            <h1 class="text-[14px] font-bold">Share</h1>
+                        </button>
+                        <button class="py-2 pr-12 pl-4 bg-neutral-800 rounded-full flex items-center mr-4 hover:bg-neutral-700">
+                            <img src="imgs/download.svg" class="mr-1">
+                            <h1 class="text-[14px] font-bold">Download</h1>
+                        </button>
+                        <button class="py-2 px-3 bg-neutral-800 rounded-full hover:bg-neutral-700">
+                            <img src="imgs/threedots.svg" class="w-6">
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- video description -->
+            <div class="flex flex-col bg-neutral-800 p-4 mt-3 rounded-xl">
+                <div class="flex">
+                    <h1 class="text-[14px] mr-2">3.5M views  8 months ago</h1>
+                    <h1 class="text-gray-400">#SavageKingdom #NatGeoWILD #FullEpisode</h1>
+                </div>
+                <p class="font-regular mt-1 text-[14px]">Five rival animal clans battle it out for power in the remote wilderness of Botswana. Each will kill to protect their dynasty, each would kill to take the throne. The winners are rewarded with the richest hunting grounds in the kingdom, but the fate of the losers is brutal: exile or death. The only way to succeed is to build an army to steal power before the others cut them off at the knees. Fighting to</p>
+            </div>
+
+            <div class="flex mt-3">
+                <h1 class="text-[16px] mr-8">748 Comments</h1>
+                <button class="flex flex-row items-center">
+                    <img src="imgs/sort.svg" class="w-6 mr-2">
+                    <h1 class="text-[14px]">Sort by</h1>
+                </button>
+            </div>
+
+            <!-- Comment section starts here -->
+            <div class="flex mt-6 items-top">
+                <button class="mr-4 rounded-full">
+                    <img src="imgs/acc.jpeg" class="w-10 object-cover rounded-full">
+                </button>
+                <div class="grow">
+                    <h1 class="text-[14px] mb-2 text-gray-400">Add a comment</h1>
+                    <div class="bg-gray-500 h-[2px]"></div>
+                </div>
+            </div>
+            <!-- Comments-->
+            <div class="flex mt-7">
+                <button class="mr-4 h-10">
+                    <img src="imgs/com1.jpeg" class="w-10 object-cover rounded-full">
+                </button>
+                <div class="flex flex-col">
+                    <div class="flex">
+                        <h1 class="text-[13px] mr-2">@godsfinalwarning166</h1>
+                        <h1 class="text-[12px] mr-1 text-gray-400">1 month ago</h1>
+                    </div>
+                    <p class="mt-1 text-[14px]">Wow, top notch editing. You guys did an amazing job.</p>
+                    <div class="flex items-center mt-2">
+                        <button class="flex items-center">
+                            <img src="imgs/like.svg" class="w-6 mr-1">
+                        </button>
+                        <h1 class="text-[12px] text-gray-400 mr-1">44</h1>
+                        <button class="flex-row">
+                            <img src="imgs/dislike.svg" class="w-6 mr-5">
+                        </button>
+                        <h1 class="text-[12px] text-white">Reply</h1>
+                    </div>
+                        <button class="flex mt-2">
+                            <img src="imgs/reply.svg" class="mr-1">
+                            <h1 class="text-[14px] text-sky-400">2 replies</h1>
+                        </button>
+                </div>
+            </div>
+
+            <div class="flex mt-6">
+                <button class="mr-4 h-10">
+                    <img src="imgs/com2.jpeg" class="w-10 object-cover rounded-full">
+                </button>
+                <div class="flex flex-col">
+                    <div class="flex">
+                        <h1 class="text-[13px] mr-2">@raquelmiller558</h1>
+                        <h1 class="text-[12px] mr-1 text-gray-400">1 month ago</h1>
+                    </div>
+                    <p class="mt-1 text-[14px]">I love this so much. Please let's save our beautiful wildlife!!!</p>
+                    <div class="flex items-center mt-2">
+                        <button class="flex items-center">
+                            <img src="imgs/like.svg" class="w-6 mr-1">
+                        </button>
+                        <h1 class="text-[12px] text-gray-400 mr-1">52</h1>
+                        <button class="flex-row">
+                            <img src="imgs/dislike.svg" class="w-6 mr-5">
+                        </button>
+                        <h1 class="text-[12px] text-white">Reply</h1>
+                    </div>
+                        <button class="flex mt-2">
+                            <img src="imgs/reply.svg" class="mr-1">
+                            <h1 class="text-[14px] text-sky-400">2 replies</h1>
+                        </button>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Right section goes here -->
+        <div class="col-start-3 col-end-4 pt-6">
+
+            <!-- AD Watch on YouTube -->
+            <div class="mr-2">
+                <h1 class="font-bold text-white text-5 p-4 bg-neutral-800 rounded-t-xl border-1">
+                Watch On YouTube
+            </h1>
+            <div class="mb-3 p-4 flex flex-col border-neutral-100 border-opacity-30 border-x border-b border-1 rounded-b-lg">
+                <div class="flex">
+                    <img src="imgs/adpic.jpeg" class="w-32 h-18 object-cover rounded-lg">
+                    <div class="flex flex-col ml-2">
+                        <h1 class="text-[18px] text-white">Savage Kingdom: Uprising</h1>
+                        <h1 class="text-gray-400 text-[12px]">4 seasons • Reality • 2020</h1>
+                        <h1 class="text-gray-400 text-[12px]">English audio</h1>
+
+                    </div>
+                </div>
+                <button class="bg-blue-400 grow rounded-full py-[7px] text-black font-bold mt-4">Buy</button>
+                <h1 class="text-gray-400 text-[12px]">Three rising princes have their eyes on the kingdom's mightiest throne.</h1>
+            </div>
+            </div>
+            
+
+            <!-- categories -->
+            <div class="flex mb-2">
+                <button class="bg-white rounded-lg px-3 py-1 mr-2">
+                    <h1 class="text-black text-[14px]">All</h1>
+                </button>
+                <button class="bg-neutral-800 rounded-lg px-3 py-1 mr-2">
+                    <h1 class="text-white text-[14px]">Nature documentaries</h1>
+                </button>
+                <button class="bg-neutral-800 rounded-lg px-3 py-1 mr-2">
+                    <h1 class="text-white text-[14px]">Related</h1>
+                </button>
+                <button class="px-3 py-2 ml-3">
+                    <img src="imgs/arrowright.svg" class="w-full">
+                </button>
+            </div>
+
+            
+
+            <!-- Recommended videos -->
+            <div class="flex h-24 mb-2">
+                <div class="h-24 flex">
+                    <img src="imgs/pic1.jpeg" class="object-cover h-24 rounded-lg">
+                    <div class="flex flex-col w-51 ml-2">
+                        <h1 class="text-white font-bold text-[14px] mb-1">The War Of The Wolf Packs-
+                            Part 1 (Wolf Documentary HD)...</h1>
+                        <h1 class="text-gray-400 text-[12px]">Real Wild</h1>
+                        <h1 class="text-gray-400 text-[12px]">4.1M views • 1 year ago</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex h-24 mb-2">
+                <div class="h-24 flex">
+                    <img src="imgs/pic2.jpeg" class="object-cover h-24 rounded-lg">
+                    <div class="flex flex-col w-51 ml-2">
+                        <h1 class="text-white font-bold text-[14px] mb-1">Meet Atari our new bobcat!
+                            Willow is in love!</h1>
+                        <h1 class="text-gray-400 text-[12px]">Amazing Animals Inc</h1>
+                        <h1 class="text-gray-400 text-[12px]">89 views • 8 hours ago</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex h-24 mb-2">
+                <div class="h-24 flex">
+                    <div class="flex w-62 h-24 relative">
+                        <div class="flex justify-center absolute w-full h-6 bottom-0 right-0 bg-stone-600 opacity-70 z-10">
+                            <img src="imgs/mix.svg" class="w-6 h-6">
+                        </div>
+                        <img src="imgs/pic3.jpeg" class="object-cover h-24 rounded-lg">
+                    </div>
+                    
+                    <div class="flex flex-col w-51 ml-2">
+                        <h1 class="text-white font-bold text-[14px] mb-1">Mix - Nat Geo WILD</h1>
+                        <h1 class="text-gray-400 text-[12px]">More from this channel for you</h1>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex h-24 mb-2">
+                <div class="h-24 flex">
+                    <img src="imgs/pic4.jpeg" class="object-cover h-24 rounded-lg">
+                    <div class="flex flex-col w-51 ml-2">
+                        <h1 class="text-white font-bold text-[14px] mb-1">Lion Brothers: Cubs to Kings |
+                            Love Nature</h1>
+                        <h1 class="text-gray-400 text-[12px]">Love Nature</h1>
+                        <h1 class="text-gray-400 text-[12px]">402K views • 4 months ago</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex h-24 mb-2">
+                <div class="h-24 flex">
+                    <img src="imgs/pic5.jpeg" class="object-cover h-24 rounded-lg">
+                    <div class="flex flex-col w-51 ml-2">
+                        <h1 class="text-white font-bold text-[14px] mb-1">Africa's Lions, Leopards and
+                            Hyenas With Austin Stevens|.…..</h1>
+                        <h1 class="text-gray-400 text-[12px]">Real Wild</h1>
+                        <h1 class="text-gray-400 text-[12px]">1.2M views • 10 months ago</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex h-24 mb-2">
+                <div class="h-24 flex">
+                    <img src="imgs/pic6.jpeg" class="object-cover h-24 rounded-lg">
+                    <div class="flex flex-col w-51 ml-2">
+                        <h1 class="text-white font-bold text-[14px] mb-1">20 Crazy Things You Never
+                            Knew About Lions | 8K...</h1>
+                        <h1 class="text-gray-400 text-[12px]">Ultra HD Documentary</h1>
+                        <h1 class="text-gray-400 text-[12px]">8.6K views • 2 weeks ago</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex h-24 mb-2">
+                <div class="h-24 flex">
+                    <img src="imgs/pic7.jpeg" class="object-cover h-24 rounded-lg">
+                    <div class="flex flex-col w-51 ml-2">
+                        <h1 class="text-white font-bold text-[14px] mb-1">WildEarth - Sunset - 05
+                            November 2021</h1>
+                        <h1 class="text-gray-400 text-[12px]">WildEarth</h1>
+                        <h1 class="text-gray-400 text-[12px]">4.1M views  1 year ago</h1>
+                    </div>
+                </div>
+            </div>
+
+            
+              
+                
+        
+
+        </div>
+
+    </div>
+
+    
+    
+
+    
+    
+</body>
+</html>

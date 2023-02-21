@@ -1,0 +1,11 @@
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 30px;
+    background: #d9ebff;
+    font-size: 16px;
+    transition: 0.2s;
+    width: auto;
+    margin-top: 8px;
+    color: rgb(17, 26, 34);
+}
